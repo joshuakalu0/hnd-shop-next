@@ -3,7 +3,7 @@ import { Envolpe } from '../svg/envolpe'
 
 export const Footer = () => {
   return (
-      <div className='flex flex-col md:px-10  lg:px-30 pt-20'>
+      <div className='flex flex-col md:px-10  pb-10 lg:px-30 pt-20'>
       <div className='text-white bg-black p-10 flex flex-col sm:flex-row  justify-between rounded-2xl'>
         <h1 className=' text-xl md:text-2xl  lg:text-4xl  xl:text-6xl font-extrabold font-serif'>STAY UP TO DATE ABOUT LATEST TRENDS</h1>
         <form className='flex flex-col max-w-1/2 min-w-[300px] gap-1'>
