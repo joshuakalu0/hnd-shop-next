@@ -6,7 +6,7 @@ import { Vector } from "../svg/Vector";
 import { useState } from "react";
 
 export const Navbar = () => {
-  const [active, setactive] = useState(true);
+  const [active, setactive] = useState(false);
   const handleClick = () => {
     console.log("act");
     setactive(!active);
