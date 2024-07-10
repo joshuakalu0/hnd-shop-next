@@ -7,6 +7,7 @@ import { useState } from "react";
 
 export const Navbar = () => {
   const [active, setactive] = useState(false);
+  const [search, setsearch] = useState("");
   const handleClick = () => {
     console.log("act");
     setactive(!active);
