@@ -18,7 +18,7 @@ export const Navbar = () => {
           href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <span className="self-center text-2xl font-semibold flex flex-row space-x-2 whitespace-nowrap dark:text-white">
+          <span className="self-center text-2xl font-semibold flex flex-row justify-center items-center space-x-2 whitespace-nowrap dark:text-white">
             Go Fashion
             <Vector />
           </span>
