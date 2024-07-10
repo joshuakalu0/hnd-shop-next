@@ -42,7 +42,9 @@ export const SingleCartItem = ({ data }) => {
       />
       <div className=" text-xs sm:text-base flex w-full justify-between">
         <div className="mt-5 sm:mt-0 flex flex-col justify-between">
-          <h2 className="text-lg font-bold text-gray-900">Nike Air Max 2019</h2>
+          <h2 className="md:text-lg text-sm font-bold text-gray-900">
+            Nike Air Max 2019
+          </h2>
           <p className="mt-1  text-gray-700">size : {data.size}</p>
           <p className="mt-1 text-gray-700">color : {data.color}</p>
           <p className="mt-1  text-black">${data.price}</p>
@@ -59,7 +61,7 @@ export const SingleCartItem = ({ data }) => {
               -
             </span>
             <input
-              className="h-6 w-16 border bg-transparent border-none font-black  text-center text-xs outline-none"
+              className="h-6 w-8 md:w-16 border bg-transparent border-none font-black  text-center text-xs outline-none"
               type="number"
               value={num}
               min="1"
