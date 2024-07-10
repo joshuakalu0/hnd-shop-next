@@ -5,7 +5,7 @@ export const DB = [
     color: "red",
     id: "1",
     price: 67,
-    img: "./1.png",
+    img: "./14.png",
     qty: 0,
   },
   {
@@ -14,7 +14,7 @@ export const DB = [
     color: "red",
     id: "2",
     price: 20,
-    img: "./2.png",
+    img: "./13.png",
     qty: 0,
   },
   {
@@ -23,7 +23,7 @@ export const DB = [
     color: "gray",
     id: "3",
     price: 80,
-    img: "./3.png",
+    img: "./12.png",
     qty: 0,
   },
   {
@@ -32,7 +32,7 @@ export const DB = [
     color: "red",
     id: "4",
     price: 100,
-    img: "./4.png",
+    img: "./16.png",
     qty: 0,
   },
   {
@@ -41,7 +41,7 @@ export const DB = [
     color: "brown",
     id: "5",
     price: 67,
-    img: "./5.png",
+    img: "./15.png",
     qty: 0,
   },
   {
@@ -50,7 +50,7 @@ export const DB = [
     color: "blue",
     id: "6",
     price: 67,
-    img: "./6.png",
+    img: "./11.png",
     qty: 0,
    }
 ];
