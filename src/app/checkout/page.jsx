@@ -6,7 +6,7 @@ export default function CheckoutPage() {
   const { cartobject, setcartobject } = useContext(CartContext);
   const [active, setactive] = useState(1);
   return (
-    <div className="  p-10">
+    <div className=" min-h-screen p-10">
       <header className="flex items-center justify-between pb-4 border-b">
         <h1 className="text-2xl font-bold">Go Fashion</h1>
       </header>
