@@ -44,7 +44,7 @@ export const SingleProduct = ({ data }) => {
   };
 
   return (
-    <div className="max-w-[300px] max-h-[400px] flex overflow-hidden flex-col justify-center shadow-md p-3 rounded-2xl">
+    <div className="max-w-[400px] max-h-[400px] flex overflow-hidden flex-col justify-center shadow-md p-3 rounded-2xl">
       <img
         alt=""
         className="rounded-2xl max-h-1/2 h-[70%] object-cover"

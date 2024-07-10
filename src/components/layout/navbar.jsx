@@ -18,12 +18,12 @@ export const Navbar = () => {
           href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <span className="self-center text-2xl font-semibold flex flex-row justify-center items-center space-x-2 whitespace-nowrap ">
+          <span className="self-center text-2xl font-semibold flex flex-row justify-center items-center space-x-2 gap-x-4 whitespace-nowrap ">
             Go Fashion
             <Vector />
           </span>
         </Link>
-        <div className="relative hidden md:block flex-grow">
+        <div className="relative  mx-20 hidden md:block flex-grow">
           <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
             <SearchIcon />
             <span className="sr-only">Search icon</span>

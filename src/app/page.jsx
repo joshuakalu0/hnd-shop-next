@@ -8,7 +8,7 @@ export default function Home() {
       <div className="mb-9">
         <h3 className="capitalize font-bold text-4xl">Casual</h3>
       </div>
-      <div className="flex flex-row justify-center flex-wrap gap-5">
+      <div className="flex max-w-[1500px] mx-auto flex-row justify-center flex-wrap gap-5">
         {DB.map((data) => (
           <SingleProduct key={data.id} data={data} />
         ))}
