@@ -2,6 +2,7 @@
 import { SearchIcon } from "@/components/svg/search";
 import { Cart } from "../svg/cart";
 import Link from "next/link";
+import { Vector } from "../svg/Vector";
 import { useState } from "react";
 
 export const Navbar = () => {
@@ -17,8 +18,9 @@ export const Navbar = () => {
           href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <span className="self-center text-2xl font-semibold flex flex-row space-x-2 whitespace-nowrap dark:text-white">
             Go Fashion
+            <Vector />
           </span>
         </Link>
         <div className="relative hidden md:block flex-grow">
