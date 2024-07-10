@@ -38,7 +38,7 @@ export const SingleCartItem = ({ data }) => {
       <img
         src={data.img}
         alt="product-image"
-        className="w-full object-cover rounded-lg h-29 w-[90px] mr-1 sm:w-40"
+        className=" object-cover rounded-lg h-29 w-[90px] mr-1 sm:w-40"
       />
       <div className=" text-xs sm:text-base flex w-full justify-between">
         <div className="mt-5 sm:mt-0 flex flex-col justify-between">
