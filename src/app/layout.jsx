@@ -12,11 +12,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <CartProvider>
-          <Navbar />
-          {children}
-          <Footer />
-        </CartProvider>
+        {/* <CartProvider>
+          <Navbar /> */}
+        {children}
+        {/* <Footer />
+        </CartProvider> */}
       </body>
     </html>
   );

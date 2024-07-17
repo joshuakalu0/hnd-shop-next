@@ -3,15 +3,18 @@ import { SearchIcon } from "@/components/svg/search";
 import { Cart } from "../svg/cart";
 import Link from "next/link";
 import { Vector } from "../svg/Vector";
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { CartContext } from "@/components/context/cartContext";
 
 export const Navbar = () => {
   const [active, setactive] = useState(false);
   const [search, setsearch] = useState("");
+  const { cartobject, setcartobject } = useContext(CartContext);
   const handleClick = () => {
     console.log("act");
     setactive(!active);
   };
+
   return (
     <nav className="bg-[#E7E6E6] pb-2 border-gray-200">
       <div className=" flex flex-wrap items-center justify-between  p-4 gap-x-3">
@@ -34,6 +37,8 @@ export const Navbar = () => {
             id="search-navbar"
             className="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-[#9898984D] flex-grow focus:ring-blue-500 focus:border-blue-500"
             placeholder="Search..."
+            value={search}
+            onChange={(e) => setsearch(e.target.value)}
           />
         </div>
 

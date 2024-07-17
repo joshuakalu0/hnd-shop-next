@@ -7,7 +7,7 @@ export const SingleProduct = ({ data }) => {
   const { cartobject, setcartobject } = useContext(CartContext);
   const [check, setcheck] = useState(false);
   const updateCheck = () => {
-    cartobject.map((item) => {
+    cartobject?.map((item) => {
       if (item.id === id) {
         setcheck(true);
       } else {
